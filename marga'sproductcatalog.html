@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Almarai:wght@800&family=Alumni+Sans:wght@700;800&family=Be+Vietnam+Pro:wght@900&family=Bebas+Neue&family=Big+Shoulders+Inline+Display:wght@300&family=Noto+Serif:wght@500&family=Petit+Formal+Script&family=Raleway:ital,wght@0,600;1,600&family=Roboto+Condensed:wght@600&family=Yesteryear&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Add your additional CSS styles or links here -->
+    <link rel="stylesheet" href="catalog.css">
+
+    <style>
+       
+body{
+    background-color: #f2efe9;
+    box-shadow: 4px 2px 400px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    height: 100%;
+    position: relative;
+
+
+    
+}
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    border: 3px, solid black;
+    position: relative;
+    margin-bottom: 2000px; /* Adjusted margin-bottom value */
+    grid-template-columns: repeat(4, 1fr);
+
+
+
+
+}
+
+.product {
+    border: 3px solid black;
+    padding: 20px;
+    max-width: 340px;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    max-height: 650px;
+    box-shadow:  0 40px 40px #757676;
+    flex-direction: column; /* Adjust layout to column */
+    letter-spacing: 1px;
+    background-color: #eeeee6;
+    margin-top: 350px;
+    margin-bottom: -50px;
+  padding-bottom: 70px;
+
+
+
+
+
+}
+
+.image-format {
+    object-fit: cover;
+    max-width: 100%; /* Ensures the image doesn't exceed the container width */
+    max-height: 250px;
+    display: block; /* Removes extra space below inline images */
+    margin: 0 auto; 
+    margin-bottom: 25px;
+    height: auto;
+    border-bottom: 1px solid black;
+ border-bottom: 1px solid #e0e0e0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 90%;
+  filter: drop-shadow(0 10px 20px #0009);
+  
+
+}
+.header-container{
+    text-align: center;
+    font-family: Raleway  ;
+    font-size: 40px;
+   position: fixed;
+   z-index: 1000;
+    background-color:  white;
+    color: black;
+    border-radius: 20px;
+   height: 30%;
+   left: 0;
+   right: 0;
+ 
+    display: flex;
+    justify-content: space-between;
+  top: 0;
+   
+    
+
+
+
+    
+}
+
+
+i{
+  margin-right: 10px;
+  position: inherit;
+}
+
+ .icon{
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  margin-left: 90%;
+  padding: 10px;
+  padding-left: 10px;
+margin-top: -25px;
+left: 90px;
+
+}
+
+header .span-icon{
+
+  background-color: red;
+  margin-bottom: 20px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40%;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin-left: 93%;
+  top: 60px;
+  margin-bottom: 20px;
+  margin-top: -40px;
+  left: 90px;
+
+
+
+  
+}
+i{
+  width: 20px;
+  height: 20px;
+  padding-top: 30px;
+  
+}
+
+.product:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    
+  }
+
+.productName{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+    font-family: Be Vietnam Pro    ;
+    padding: 5px;
+    font-size: 20px;
+    text-indent: 5px;
+   border-radius: 15px;
+   display:  grid;
+   font-weight: 500;
+   font-size: x-large;
+
+}
+.description{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Asap Condensed;
+    font-weight: bold;
+    line-height: 1.5em;
+
+}
+
+.price{
+    
+    margin-bottom: 5px;
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 200px;
+    letter-spacing: 7px;
+
+
+}
+
+button {
+    background-color: #1c1f25;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    align-self: center; /* Center the button */
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    
+
+  }
+
+  button:hover {
+    background-color: gray;
+  }
+
+  #introduction{
+    font-family: Roboto Condensed;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 35px;
+    text-indent: 100px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+
+
+  }
+
+ .tabcart{
+ background-color:  #353432;
+ color: white;
+ top: 0;
+ width:400px;
+ position: fixed;
+ z-index: 2;
+ right: 0;
+ bottom: 0;
+ inset: 0 -400px 0 auto;
+ display: grid;
+ grid-template-rows: 70px 1fr 70px;
+ transition:  transform 5s;
+ z-index: 1200;
+
+  }
+
+  .tabcart h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+    
+
+
+  }
+
+  .tabcart .cart-button {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+  }
+
+  .tabcart .cart-button  button{
+    background-color: black;
+    border: none;
+    padding-bottom: 70px;
+    padding-left: 10px;
+    text-align: center;
+    text-align-last: center;
+    padding-top: 20px;
+    
+    
+  }
+
+
+  .tabcart .cart-button .close{
+    background-color: #eeeee6;
+    color: black;
+
+  }
+
+  .tabcart .itemList .image img{
+
+    width: 100%;
+  }
+  .tabcart .itemList .item{
+
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .itemList .quantity span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #eeeee6;
+    color: black;
+    border-radius: 50% ;
+    cursor: pointer;
+  }
+
+  .itemList .quantity span:nth-child(2){
+    background-color: transparent;
+    color: white;
+
+
+  }
+
+  .itemList .item:nth-child(even){
+    background-color:#eee1;
+
+  }
+
+  .itemList{
+    overflow: auto;
+  }
+
+  .itemList::-webkit-scrollbar{
+
+    width: 0;
+  }
+
+  body.showCart .tabcart{
+
+    inset: 0 0 0 auto;
+  }
+
+  body.showCart .header-container{
+    transform: translateX(-250px);
+
+  }
+
+  .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            border: 2px solid #333;
+            z-index: 1500;
+        }
+
+        .popup-content {
+            text-align: center;
+        }
+
+        .popup button {
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        .popup button.yes {
+            background-color: green;
+            color: white;
+        }
+
+        .popup button.no {
+            background-color: red;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body class="showCart">
+    <header class="header-container">
+        <div class="icon"><i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="span-icon"><span>0</span></div>
+        <h1>SWEET TRADITIONS: A FILIPINO DESSERT DISCOVERY CATALOG</h1>
+    </header>
+
+    <div id="output" class="product-container"></div>
+
+    <div class="tabcart">
+        <h1>Shopping Cart</h1>
+        <div class="itemList">
+            <!-- Shopping cart items will be dynamically added here -->
+        </div>
+        <div class="cart-button">
+            <button class="close">CLOSE</button>
+            <button class="check-out">CHECK OUT</button>
+        </div>
+    </div>
+
+    <script>
+        let icon = document.querySelector('.icon');
+        let body = document.querySelector('body');
+        let closeCart = document.querySelector('.close');
+        let listProduct = document.querySelector('.itemList');
+
+        let shoppingCart = []; // Array to store added products
+
+        icon.addEventListener('click', () => {
+            body.classList.toggle('showCart');
+        });
+
+        closeCart.addEventListener('click', () => {
+            body.classList.toggle('showCart');
+        });
+
+        const addToCart = (productName, price, image) => {
+            const existingItem = shoppingCart.find(item => item.productName === productName);
+
+            if (existingItem) {
+                // If it exists, increment the quantity
+                existingItem.quantity += 1;
+            } else {
+                // If not, add a new entry to the cart
+                shoppingCart.push({ productName, price, image, quantity: 1 });
+            }
+
+            updateCartCounter();
+            updateCartDisplay();
+        };
+
+        const updateCartCounter = () => {
+            let cartCounter = document.querySelector('.span-icon span');
+            cartCounter.textContent = calculateTotalQuantity();
+        };
+
+        const updateCartDisplay = () => {
+            listProduct.innerHTML = '';
+            shoppingCart.forEach(productInfo => {
+                let newProduct = document.createElement('div');
+                newProduct.classList.add('item');
+
+                newProduct.innerHTML = `
+                    <div class="image">
+                        <img src="${productInfo.image}" alt="">
+                    </div>
+                    <div class="name">
+                        ${productInfo.productName}
+                    </div>
+                    <div class="total">
+                        ₱${productInfo.price * productInfo.quantity}
+                    </div>
+                    <div class="quantity">
+                        <span class="minus" onclick="decrementQuantity('${productInfo.productName}')"><</span>
+                        <span>${productInfo.quantity}</span>
+                        <span class="plus" onclick="incrementQuantity('${productInfo.productName}')">></span>
+                    </div>
+                `;
+
+                listProduct.appendChild(newProduct);
+            });
+        };
+
+        const calculateTotalQuantity = () => {
+            return shoppingCart.reduce((total, item) => total + item.quantity, 0);
+        };
+
+        const calculateTotalPrice = () => {
+            return shoppingCart.reduce((total, item) => total + (item.price * item.quantity), 0);
+        };
+
+        const incrementQuantity = (productName) => {
+            const item = shoppingCart.find(item => item.productName === productName);
+            if (item) {
+                item.quantity += 1;
+                updateCartCounter();
+                updateCartDisplay();
+            }
+        };
+
+        const decrementQuantity = (productName) => {
+            const item = shoppingCart.find(item => item.productName === productName);
+            if (item && item.quantity > 1) {
+                item.quantity -= 1;
+                updateCartCounter();
+                updateCartDisplay();
+            } else if (item && item.quantity === 1) {
+                const index = shoppingCart.indexOf(item);
+                if (index !== -1) {
+                    shoppingCart.splice(index, 1);
+                    updateCartCounter();
+                    updateCartDisplay();
+                }
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Fetch product data from JSON
+            fetch('productInfo.json')
+                .then(response => response.json())
+                .then(data => {
+                    let outputContainer = document.getElementById("output");
+
+                    // Loop through each product in the data
+                    data.forEach(item => {
+                        let productContainer = document.createElement("div");
+                        productContainer.className = "product";
+
+                        productContainer.innerHTML = `
+                            <div><img src="${item.images}" class="image-format"></div>
+                            <div class="productName">${item.productName}</div>
+                            <div class="description">${item.description}</div>
+                            <div class="price">&#8369; ${item.price}</div>
+                            <button class="buy-button" onclick="addToCart('${item.productName}', '${item.price}', '${item.images}')">Add to Cart</button>
+                        `;
+
+                        outputContainer.appendChild(productContainer);
+                    });
+                });
+        });
+
+        const checkoutButton = document.querySelector('.check-out');
+
+        checkoutButton.addEventListener('click', () => {
+            const totalPrice = calculateTotalPrice();
+            alert(`Total Price: ₱${totalPrice}. Thank you for shopping with us!`);
+            shoppingCart = [];
+            updateCartCounter();
+            updateCartDisplay();
+            body.classList.remove('showCart');
+        });
+    </script>
+</body>
+
+</html>

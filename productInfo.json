@@ -1,0 +1,311 @@
+[
+
+    {
+
+        "images" : "images/product catalog/graham3.png",
+        "productName" : "MANGO GRAHAM FLOAT" ,
+        "description": "Mango Float, a Filipino dessert, combines mangoes, whipped cream, and graham crackers for a tropical paradise experience, offering a perfect balance of fruitiness and decadence.",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/flan.png",
+        "productName" : "LECHE FLAN" ,
+        "description": "Indulge in our Leche Flan, a velvety caramel custard that's the perfect blend of sweetness and creaminess. A Filipino classic, each spoonful is a decadent delight for your taste buds!",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/puto2.png",
+        "productName" : "PUTO" ,
+        "description": "Puto, a Filipino delicacy, is a soft, fluffy steamed rice cake with a light texture and delicious flavors. Perfectly sweetened and paired with grated coconut or cheese, it's a comforting and delicious treat.",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/bibingka.png",
+        "productName" : "BIBINGKA" ,
+        "description": "Savor the comfort of our Bibingka a soft, sweet rice cake with coconut goodness. Topped with salted duck eggs and grated coconut, it's a simple delight that brings Filipino festivity to every bite!",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/biko.png",
+        "productName" : "BIKO" ,
+        "description": "Experience the sweet simplicity of our Biko a Filipino rice cake treat with a rich, caramelized coconut flavor. Every bite is a delightful blend of sticky rice goodness, creating a comforting and indulgent dessert that's perfect for any occasion! ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/halaya.png",
+        "productName" : "UBE HALAYA" ,
+        "description": "Try our Ube Halaya - a sweet Filipino treat with the rich taste of purple yam. It's a simple and delightful dessert that's sure to satisfy your sweet cravings! ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/sapin,png.jpg",
+        "productName" : "SAPIN-SAPIN" ,
+        "description": "Taste the joy of Sapin Sapin, a colorful Filipino delight with layers of sweet goodness from sticky rice and coconut. A treat that's as delightful as it is vibrant! ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/halohalo.png",
+        "productName" : "HALO HALO" ,
+        "description": "Chill with our Halo-Halo, a Filipino shaved ice treat with sweet beans, fruits, and jellies. Topped with leche flan and ube ice cream, it's a cool tropical delight for your taste buds! ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/mamon.png",
+        "productName" : "MAMON" ,
+        "description": "Treat yourself to Mamon, a soft and fluffy Filipino sponge cake that's light, airy, and simply delightful!  ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/MAJA.PNG",
+        "productName" : "MAJA BLANCA" ,
+        "description": "Maja Blanca, a traditional Filipino dessert, is a comforting blend of coconut milk and sweetness, showcasing the essence of Filipino culinary warmth and hospitality. Its smooth texture and subtle corn hints add to its richness. ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/CARIOCA.PNG",
+        "productName" : "CARIOCA" ,
+        "description": "Enjoy the delightful taste of Carioca, a Filipino snack featuring sticky rice balls coated in caramelized sugar. Sweet, chewy, and irresistibly delicious!   ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/MAIS.PNG",
+        "productName" : "MAIS CON YELO" ,
+        "description": "Chill out with Mais con Yelo, a cool Filipino dessert featuring shaved ice, sweet corn, and creamy milk. It's the perfect blend of refreshing and sweet!  ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/TURON.PNG",
+        "productName" : "TURON" ,
+        "description": "Turon, a Filipino delight, is a delectable treat that features ripe bananas coated in sweet caramel, wrapped in a crisp spring roll. Indulge in the perfect blend of sweet and crunchy flavors for a delightful snacking experience! ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/MINATAMIS NA SAGING.PNG",
+        "productName" : "MINATAMIS NA SAGING" ,
+        "description": "Experience the sweetness of Minatamis na Saging, a Filipino dessert highlighting caramelized banana slices in a rich syrup. Simple, delicious, and a delightful taste of Filipino indulgence! ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/SILVANAS.PNG",
+        "productName" : "SILVANAS" ,
+        "description": "Silvanas, a delectable Filipino dessert, is a blend of crunchy, creamy, and sweet layers of cashew meringue wafers filled with rich buttercream and coated with cookie crumbs. ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/BUKO PIE.PNG",
+        "productName" : "BUKO PIE" ,
+        "description": "Buko Pie, a Filipino classic pastry, is a delightful combination of coconut strips, creamy filling, and flaky crust, offering a perfect harmony of sweetness and tropical goodness.",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/FRUIT SALAD.PNG",
+        "productName" : "FRUIT SALAD" ,
+        "description": "Our Fruit Salad is a vibrant, juicy blend of fruits and creamy dressing, providing a refreshing and delicious experience with every bite.",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/PANDAN.PNG",
+        "productName" : "BUKO PANDAN" ,
+        "description": "Buko Pandan is a tropical Filipino dessert with coconut strips and pandan-flavored jelly cubes, showcasing the perfect balance of coconut freshness and pandan aroma, a satisfying and tropical culinary delight. ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/YEMA CAKE.PNG",
+        "productName" : "YEMA CAKE" ,
+        "description": "Yema Cake, a Filipino dessert, is a decadent delight combining soft chiffon layers with luscious yema frosting, offering a perfect harmony of light texture and rich caramelized flavor, capturing the essence of Filipino culinary magic.",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/POLVORON.PNG",
+        "productName" : "POLVORON" ,
+        "description": "Polvoron, a classic Filipino shortbread treat made with toasted flour, milk, and sugar, is a nostalgic and irresistible treat that melts in your mouth. ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/PASTILLAS.PNG",
+        "productName" : "PASTILLAS" ,
+        "description": "Pastillas, a Filipino confection made from sweetened condensed milk, are a timeless delight that captures the essence of Filipino sweetness and tradition. ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/CASSAVA.PNG",
+        "productName" : "CASSAVA CAKE" ,
+        "description": "Cassava Cake, a Filipino dessert made from grated cassava, coconut milk, and sweetened condensed milk, is a moist, chewy texture with a creamy custard layer, celebrating the country's culinary heritage.",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/BUCHI.PNG",
+        "productName" : "BUCHI" ,
+        "description": "Buchi, a Filipino dessert made from glutinous rice flour and sweet mung bean paste, is a satisfying and irresistible treat with crispy exteriors and gooey interiors.",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/BANANA CUE.PNG",
+        "productName" : "BANANA CUE" ,
+        "description": "Banana Cue, a popular Filipino street food, features caramelized bananas skewered on sticks, providing a perfect balance of sweetness and texture, capturing the essence of Filipino comfort food.",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/SUMAN.PNG",
+        "productName" : "SUMAN" ,
+        "description": "Suman, a Filipino delicacy made from glutinous rice and coconut milk, is a timeless delight with a delightful chewiness and subtle coconut fragrance. ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/PICHI PICHI.PNG",
+        "productName" : "PICHI PICHI" ,
+        "description": "Pichi Pichi, a Filipino dessert made from cassava, sugar, and water, is coated in grated coconut for a unique, satisfying experience that embodies the simplicity and charm of Filipino sweets. ",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/LENGUA DE GATO.jpg",
+        "productName" : "LENGUA DE GATO" ,
+        "description": "Lengua de Gato, a thin, elongated Filipino sweet treat, is a delightful accompaniment to hot beverages or a standalone indulgence, offering a delicate elegance and exquisite taste.",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/EGG PIE.PNG",
+        "productName" : "EGG PIE" ,
+        "description": "Egg Pie, a Filipino dessert with a buttery crust and velvety custard filling, is a comforting and timeless treat that captures the essence of homemade goodness.",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/MACAROONS.PNG",
+        "productName" : "MACAROONS" ,
+        "description": "Macaroons, a Filipino dessert combining shredded coconut, condensed milk, and vanilla, are a delicious and irresistible treat that offers a tropical taste.",
+        "price": 100.00
+
+    },
+
+    {
+
+        "images" : "images/product catalog/MERCEDES.PNG",
+        "productName" : "BRASO DE MERCEDES" ,
+        "description": "Brazo de Mercedes, a Filipino rolled cake, is a classic dessert with a light meringue and a rich custard filling, showcasing indulgence and tradition in every bite. ",
+        "price": 100.00
+
+    },
+
+    
+    {
+
+        "images" : "images/product catalog/PALITAW.PNG",
+        "productName" : "PALITAW" ,
+        "description": "Palitaw, a Filipino rice cake, is a classic dessert made from glutinous rice dough, coated with grated coconut and sugar, offering a delightful blend of texture and flavor. ",
+        "price": 100.00
+
+    },
+
+    
+    {
+
+        "images" : "images/product catalog/ESPASOL.PNG",
+        "productName" : "ESPASOL" ,
+        "description": "Espasol, a Filipino delicacy made from toasted rice flour, coconut milk, and sweetened coconut, is a classic dessert with a unique taste and texture.",
+        "price": 100.00
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+]
